@@ -1,0 +1,22 @@
+{
+    "name": "grapes-theme",
+    "displayName": "Grapes Theme",
+    "description": "A calm and clutter-free theme for VSCode",
+    "version": "0.0.1",
+    "publisher": "fg",
+    "engines": {
+        "vscode": "^1.16.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Grapes",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Grapes-color-theme.json"
+            }
+        ]
+    }
+}

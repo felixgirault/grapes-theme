@@ -1,0 +1,99 @@
+{
+	"type": "dark",
+	"colors": {
+		"editor.background": "#1d262f",
+		"editor.foreground": "#88b4e7",
+		"editor.selectionBackground": "#424747",
+		"editor.selectionHighlightBackground": "#343334",
+		"editor.lineHighlightBackground": "#232d38",
+		"editorCursor.foreground": "#34febb",
+		"editorWhitespace.foreground": "#424747"
+	},
+	"tokenColors": [
+		{
+			"settings": {
+				"foreground": "#fdfefe",
+				"background": "#1d262fff"
+			}
+		},
+		{
+			"scope": "source,meta.block,text,variable.other.property",
+			"settings": {
+				"foreground": "#fdfefe"
+			}
+		},
+		{
+			"name": "Punctuation and comments",
+			"scope": "meta.property-value,meta.brace,punctuation,comment,constant.character.escape",
+			"settings": {
+				"foreground": "#597490"
+			}
+		},
+		{
+			"name": "Constants",
+			"scope": "constant.numeric,support.constant.core,string.regexp,constant.other.character-class",
+			"settings": {
+				"foreground": "#34febb"
+			}
+		},
+		{
+			"name": "Function calls",
+			"scope": "entity.name.function,support.function,source.sql",
+			"settings": {
+				"foreground": "#c6c5eb"
+			}
+		},
+		{
+			"scope": "variable,support.other.variable,constant.character,constant.other,variable.other.constant,variable.parameter,meta.import,variable.other.readwrite.alias,variable.other.property",
+			"settings": {
+				"foreground": "#fdfefe"
+			}
+		},
+		{
+			"name": "Types",
+			"scope": "entity.name.type,support.class.builtin,meta.type_params",
+			"settings": {
+				"foreground": "#88b4e7"
+			}
+		},
+		{
+			"name": "Keywords",
+			"scope": "keyword,storage,storage.type",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#8E8CD8"
+			}
+		},
+		{
+			"name": "Attributes and properties",
+			"scope": "meta.object-literal.key,meta.structure.dictionary,support.type.property-name,entity.other.attribute-name",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#e3bc13"
+			}
+		},
+		{
+			"name": "Strings",
+			"scope": "string",
+			"settings": {
+				"fontStyle": "normal",
+				"foreground": "#a4c400"
+			}
+		},
+		{
+			"name": "DOM Elements",
+			"scope": "entity.name.tag,support.class.component.js",
+			"settings": {
+				"foreground": "#EA005E"
+			}
+		},
+		{
+			"name": "Operators",
+			"scope": "keyword.operator,variable.language.this,support.variable.object,support.variable.dom,constant.language,keyword.control.anchor.regexp",
+			"settings": {
+				"fontStyle": "normal",
+				"foreground": "#E3008c"
+			}
+		}
+	]
+}
