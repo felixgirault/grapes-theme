@@ -3,11 +3,11 @@
 	"colors": {
 		"editor.background": "#20262c",
 		"editor.foreground": "#8cb0d8",
-		"editor.selectionBackground": "#424747",
-		"editor.selectionHighlightBackground": "#343334",
-		"editor.lineHighlightBackground": "#232d38",
+		"editor.selectionBackground": "#8cd6d844",
+		"editor.selectionHighlightBackground": "#8cd6d822",
+		"editor.lineHighlightBackground": "#283037",
 		"editorCursor.foreground": "#8cd6d8",
-		"editorWhitespace.foreground": "#424747"
+		"editorWhitespace.foreground": "#313943"
 	},
 	"tokenColors": [
 		{
@@ -18,21 +18,21 @@
 		},
 		{
 			"name": "Variables",
-			"scope": "source,meta.block,text,variable,support.other.variable,constant.character,constant.other,variable.other.constant,variable.parameter,meta.import,variable.other.readwrite.alias,variable.other.property",
+			"scope": "source,meta.block,text,variable,support.other.variable,constant.character,constant.other,variable.other.constant,variable.parameter,meta.import,variable.other.readwrite.alias,variable.other.property,support.variable.property.dom",
 			"settings": {
 				"foreground": "#f2f4f6"
 			}
 		},
 		{
 			"name": "Punctuation and comments",
-			"scope": "meta.property-value,meta.brace,punctuation,comment,constant.character.escape",
+			"scope": "meta.brace,punctuation,punctuation.section.embedded.end,comment,constant.character.escape,keyword.operator.class",
 			"settings": {
 				"foreground": "#627487"
 			}
 		},
 		{
 			"name": "Constants",
-			"scope": "constant.numeric,support.constant.core",
+			"scope": "constant.other,constant.numeric,support.constant.core,support.constant.property-value,meta.property-value,constant.language,support.variable.dom",
 			"settings": {
 				"foreground": "#8cd6d8"
 			}
@@ -46,60 +46,69 @@
 		},
 		{
 			"name": "Types",
-			"scope": "entity.name.type,support.class.builtin,meta.type_params,meta.type.annotation,support.type.primitive,support.type.builtin",
+			"scope": "entity.name.type,support.class.builtin,meta.type_params,meta.type.annotation,support.type.primitive,support.type.builtin,support.class,support.type.core,meta.class",
 			"settings": {
-				"foreground": "#8cb0d8"
+				"foreground": "#86b0de"
+			}
+		},
+		{
+			"name": "This",
+			"scope": "variable.language.this",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#627487"
 			}
 		},
 		{
 			"name": "Type parameters",
 			"scope": "meta.type.parameters",
 			"settings": {
-				"foreground": "#d88e8c"
+				"foreground": "#d3807d"
 			}
 		},
 		{
 			"name": "Keywords",
-			"scope": "keyword,storage,storage.type",
+			"scope": "storage.type,keyword,storage.modifier,storage.type.function,storage.type.class",
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#8E8CD8"
+				"foreground": "#9c9bdd"
 			}
 		},
 		{
 			"name": "Attributes and properties",
-			"scope": "meta.object-literal.key,meta.structure.dictionary,support.type.property-name,entity.other.attribute-name",
+			"scope": "meta.object-literal.key,meta.structure.dictionary,support.type.property-name,support.type.vendored.property-name,entity.other.attribute-name",
 			"settings": {
-				"foreground": "#d6d88c"
+				"foreground": "#bd9bdd"
 			}
 		},
 		{
 			"name": "Strings and regular expressions",
-			"scope": "string,string.regexp,constant.other.character-class",
+			"scope": "string,string.regexp,constant.other.character-class,meta.attribute-selector",
 			"settings": {
-				"foreground": "#b0d88c"
+				"foreground": "#a6d37d"
 			}
 		},
 		{
 			"name": "String quotes",
-			 "scope": "punctuation.definition.string",
+			 "scope": "punctuation.definition.string,constant.character.escape",
 			 "settings": {
 				  "foreground": "#57862d"
 			 }
 		},
 		{
 			"name": "DOM Elements",
-			"scope": "entity.name.tag,support.class.component.js",
+			"scope": "entity.name.tag,support.class.component.js,entity.other.attribute-name.id.css,entity.other.attribute-name.class.css",
 			"settings": {
-				"foreground": "#bf4643"
+				"fontStyle": "bold",
+				"foreground": "#86b0de"
 			}
 		},
 		{
 			"name": "Operators",
-			"scope": "keyword.operator,variable.language.this,support.variable.object,support.variable.dom,constant.language,keyword.control.anchor.regexp",
+			"scope": "keyword.operator,support.variable.object,keyword.control.anchor.regexp",
 			"settings": {
 				"fontStyle": "normal",
-				"foreground": "#d88e8c"
+				"foreground": "#d3807d"
 			}
 		}
 	]
