@@ -46,7 +46,7 @@
 		},
 		{
 			"name": "Types",
-			"scope": "entity.name.type,support.class.builtin,meta.type_params,meta.type.annotation,support.type.primitive,support.type.builtin,support.class,support.type.core,meta.class",
+			"scope": "entity.name.type,support.class.builtin,meta.type_params,meta.type.annotation,support.type.primitive,support.type.builtin,support.class,support.type.core,meta.class,keyword.other.type",
 			"settings": {
 				"foreground": "#86b0de"
 			}
