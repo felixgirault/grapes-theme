@@ -18,7 +18,7 @@
 		},
 		{
 			"name": "Variables",
-			"scope": "source,meta.block,text,variable,support.other.variable,constant.character,constant.other,variable.other.constant,variable.parameter,meta.import,variable.other.readwrite.alias,variable.other.property,support.variable.property.dom",
+			"scope": "source,meta.block,text,variable,support.other.variable,constant.character,constant.other,variable.parameter,meta.import,variable.other.readwrite.alias,variable.other.property,support.variable.property.dom",
 			"settings": {
 				"foreground": "#f2f4f6"
 			}
@@ -32,7 +32,7 @@
 		},
 		{
 			"name": "Constants",
-			"scope": "constant.other,constant.numeric,support.constant.core,support.constant.property-value,meta.property-value,constant.language,support.variable.dom",
+			"scope": "constant.other,constant.numeric,variable.other.constant,support.constant.core,support.constant.property-value,meta.property-value,constant.language,support.variable.dom",
 			"settings": {
 				"foreground": "#8cd6d8"
 			}
