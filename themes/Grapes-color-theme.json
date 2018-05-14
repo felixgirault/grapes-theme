@@ -60,7 +60,7 @@
 		},
 		{
 			"name": "This",
-			"scope": "variable.language.this",
+			"scope": "variable.language.this,variable.language.super",
 			"settings": {
 				"fontStyle": "bold",
 				"foreground": "#627487"
