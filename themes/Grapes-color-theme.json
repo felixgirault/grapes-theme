@@ -31,6 +31,13 @@
 			}
 		},
 		{
+			"name": "Array punctuation",
+			"scope": "punctuation.section.array",
+			"settings": {
+				"foreground": "#9c9bdd"
+			}
+		},
+		{
 			"name": "Constants",
 			"scope": "constant.other,constant.numeric,variable.other.constant,support.constant.core,support.constant.property-value,meta.property-value,constant.language,support.variable.dom",
 			"settings": {
