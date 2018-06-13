@@ -1,0 +1,19 @@
+.Article {
+	margin-bottom: 3rem;
+	border: 1px solid $color-gray;
+}
+
+.Article-header {
+	padding: 1.5rem;
+	background: $color-gray-light;
+}
+
+.Article-title {
+	line-height: 1;
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+.Article-body {
+	padding: 1.5rem;
+}
