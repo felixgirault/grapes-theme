@@ -15,5 +15,6 @@
 }
 
 .Article-body {
+	@include mixin();
 	padding: 1.5rem;
 }

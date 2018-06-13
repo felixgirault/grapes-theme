@@ -1,49 +1,39 @@
 <?php
 
-namespace GrapesTheme\Middleware;
-
-use Psr\Http\Message\ServerRequestInterface;
-use Psr\Http\Message\ResponseInterface;
-use Psr\Log\LoggerInterface;
+namespace Essence\Utility;
 
 /**
- * A middleware that logs each requested URL.
+ * An utility class to compile templates.
  */
-class AccessLog
-{
-    /**
-     * @var LoggerInterface
-     */
-    private $logger;
+class Template {
 
-    /**
-     * @param LoggerInterface $logger
-     */
-    public function __construct(LoggerInterface $logger)
-    {
-        $this->logger = $logger;
-    }
+	/**
+	 * A regex to identify variables in a template.
+	 *
+	 * @var string
+	 */
+	const variablePattern = '~\{?:(?<variable>[a-z0-9_]+)\}?~i';
 
-    /**
-     * Executes the middleware.
-     *
-     * @param ServerRequestInterface $request
-     * @param ResponseInterface      $response
-     * @param callable               $next
-     *
-     * @return ResponseInterface
-     */
-    public function __invoke(
-        ServerRequestInterface $request,
-        ResponseInterface $response,
-        callable $next
-    ) {
-        $response = $next($request, $response);
-        $path = $request->getUri()->getPath();
-        $date = date('c');
+	/**
+	 * Compiles a template with variables.
+	 *
+	 * @param string $template Template.
+	 * @param array $variables Variables.
+	 * @return string Compiled template.
+	 */
+	public static function compile($template, array $variables) {
+        $compile = function ($matches) use ($variables) {
+			$name = $matches['variable'];
 
-        $this->logger->info("$date: Accessed $path");
+			return isset($variables[$name])
+				? $variables[$name]
+				: '';
+		};
 
-        return $response;
-    }
+		return preg_replace_callback(
+			self::variablePattern,
+			$compile,
+			$template
+		);
+	}
 }

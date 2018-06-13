@@ -4,6 +4,14 @@ A calm and clutter-free theme for VSCode, originally based on [DuoTone](https://
 
 ## Examples
 
-### JavaScript
+### JavaScript/JSX
 
 ![](https://raw.githubusercontent.com/felixgirault/grapes-theme/master/examples/javascript.png)
+
+### CSS/Sass
+
+![](https://raw.githubusercontent.com/felixgirault/grapes-theme/master/examples/sass.png)
+
+### PHP
+
+![](https://raw.githubusercontent.com/felixgirault/grapes-theme/master/examples/php.png)
