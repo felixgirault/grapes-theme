@@ -2,7 +2,7 @@
     "name": "grapes-theme",
     "displayName": "Grapes Theme",
     "description": "A calm and clutter-free theme for VSCode",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "publisher": "fg",
     "engines": {
         "vscode": "^1.16.0"
