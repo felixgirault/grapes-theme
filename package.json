@@ -2,8 +2,14 @@
     "name": "grapes-theme",
     "displayName": "Grapes Theme",
     "description": "A calm and clutter-free theme for VSCode",
+    "repository": "felixgirault/grapes-theme",
     "version": "1.0.0",
     "publisher": "fg",
+    "logo": "logo.png",
+    "galleryBanner": {
+        "color": "#20262c",
+        "theme": "dark"
+    },
     "engines": {
         "vscode": "^1.16.0"
     },
