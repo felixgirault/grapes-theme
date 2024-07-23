@@ -28,7 +28,7 @@
 			"name": "Punctuation and comments",
 			"scope": "meta.brace,punctuation,punctuation.section.embedded.end,comment,constant.character.escape,keyword.operator.class",
 			"settings": {
-				"foreground": "#627487"
+				"foreground": "#7b8ea2"
 			}
 		},
 		{
@@ -64,7 +64,7 @@
 			"scope": "variable.language.this,variable.language.super",
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#627487"
+				"foreground": "#7b8ea2"
 			}
 		},
 		{
@@ -130,7 +130,7 @@
 			"name": "Markdown punctuation",
 			"scope": "markup.underline.link,beginning.punctuation.definition,punctuation.definition.string.begin.markdown,punctuation.definition.string.end.markdown",
 			"settings": {
-				"foreground": "#627487"
+				"foreground": "#7b8ea2"
 			}
 		},
 		{
