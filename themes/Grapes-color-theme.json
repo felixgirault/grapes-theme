@@ -2,13 +2,17 @@
 	"type": "dark",
 	"colors": {
 		"editor.background": "#20262c",
-		"editor.foreground": "#8cb0d8",
+		"editor.foreground": "#f2f4f6",
 		"editor.selectionBackground": "#8cd6d844",
 		"editor.selectionHighlightBackground": "#8cd6d822",
 		"editor.lineHighlightBackground": "#283037",
 		"editorRuler.foreground": "#313943",
 		"editorCursor.foreground": "#8cd6d8",
-		"editorWhitespace.foreground": "#313943"
+		"editorWhitespace.foreground": "#313943",
+		"panel.background": "#20262c",
+		"panel.border": "#627487",
+		"sideBar.background": "#20262c",
+		"sideBar.foreground": "#d0d6dd"
 	},
 	"tokenColors": [
 		{
